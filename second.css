@@ -1,0 +1,35 @@
+.a,.e{
+    background-color: dodgerblue;
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.b,.f{
+    background-color: rgb(29, 189, 109);
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.c{
+    background-color: rgb(234, 52, 1);
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.d{
+    background-color: rgb(151, 29, 29);
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    display: grid;
+    grid-gap: 3px;
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-rows:50px 50px;  */
+    /* grid-template-rows: repeat(2,50px); */
+
+    /* shorthand property for both rows and columns */
+    grid-template:repeat(2,50px)/repeat(3,1fr) ;
+}

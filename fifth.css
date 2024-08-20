@@ -1,0 +1,34 @@
+.a,.e,.h,.k{
+    background-color: dodgerblue;
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.b,.f,.k{
+    background-color: rgb(29, 189, 109);
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.c,.g,.j{
+    background-color: rgb(234, 52, 1);
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.d,.i,.l{
+    background-color: rgb(151, 29, 29);
+    color:#ffff;
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    display: grid;
+    grid-gap: 3px;
+    /* grid-template-columns: repeat(6,100px); */
+    /* grid-template-columns: repeat(auto-fit,100px); */
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    /* grid-template-rows:repeat(2,100px);  */
+    /* implicit rows */
+    grid-auto-rows: 100px;
+}
